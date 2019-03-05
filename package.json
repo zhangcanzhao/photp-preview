@@ -1,6 +1,6 @@
 {
   "name": "photo-preview",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "```javascript\r <template>\r     <div class = \"demo\">\r         <photo class = \"img\"\r                :imgs = \"src\"\r                :shareEl = false\r                :tapToClose = false\r                :zoomEl = false\r                :closeEl = false\r         ></photo>\r     </div>\r </template>\r <script>\r     import photo from '../demo/photo'\r     export default {\r         name: \"demo\",\r         components:{photo},\r         data(){\r             return{\r                 src: 'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg'\r             }\r         }\r     }\r </script>",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "vue",
     "photo",
-    "preview"
+    "preview",
+    "img"
   ],
   "author": "",
   "license": "ISC",
